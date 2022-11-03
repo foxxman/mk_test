@@ -31,7 +31,7 @@ class Api {
     /* Здесь ваш код */
     Object.keys(object).forEach(
       (key) =>
-        (result = result.replace(new RegExp(`%${key}%`, "gi"), object[key]))
+        (result = result.replace(`%${key}%`, object[key]))
     );
 
     return result.replace(" ", "%20");
