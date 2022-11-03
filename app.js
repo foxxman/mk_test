@@ -10,8 +10,8 @@
 /**
  * Класс для работы с API
  *
- * @author		User Name
- * @version		v.1.0 (dd/mm/yyyy)
+ * @author		foxxman
+ * @version		v.1.0 (03/11/2022)
  */
 class Api {
   constructor() {}
